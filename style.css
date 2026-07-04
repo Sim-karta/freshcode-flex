@@ -59,3 +59,71 @@ a {
 .header__menu-link.is-active {
     color: #fa4a0c;
 }
+
+.hero {
+    position: relative;
+    color: #fff;
+    height: calc(100vh - 165px);
+}
+
+.hero__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(#17101099, transparent) padding-box,
+        url(./assets/hero-bg.jpg) center/cover no-repeat padding-box;
+    z-index: -1;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 54px;
+    height: 100%;
+    padding-inline: 1rem;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+}
+
+.hero__text-subtitle {
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.hero__text-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.hero__buttons {
+    display: flex;
+    gap: 2.5rem;
+    line-height: 1.5rem;
+}
+
+.hero__buttons-delivery,
+.hero__buttons-menu {
+    width: 10rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    border-radius: 30px;
+    padding: calc(2rem / 3) 2.5rem;
+}
+
+.hero__buttons-delivery {
+    background-color: #fa4a0c;
+}
+
+.hero__buttons-menu {
+    border: 1px solid #fff;
+}
