@@ -101,7 +101,7 @@ a {
 
 .hero__text-title {
     font-weight: 700;
-    font-size: 58px;
+    font-size: 2.5rem;
     line-height: 3rem;
 }
 
@@ -117,7 +117,7 @@ a {
     font-weight: 700;
     line-height: 1.5rem;
     border-radius: 30px;
-    padding: 16px 58.5px;
+    padding: calc(2rem / 3) 2.5rem;
 }
 
 .hero__buttons-delivery {
