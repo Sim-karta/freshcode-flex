@@ -31,6 +31,31 @@ a {
     font-weight: 600;
 }
 
+.header__menu-link {
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+.header__menu-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0%;
+    height: 1px;
+    translate: -50% 0%;
+    background-color: #fa4a0c;
+    transition-duration: 0.2s;
+}
+
+.header__menu-link:hover {
+    color: #fa4a0c;
+}
+
+.header__menu-link:hover::after {
+    width: 100%;
+}
+
 .header__menu-link.is-active {
     color: #fa4a0c;
 }
