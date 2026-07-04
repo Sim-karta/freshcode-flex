@@ -5,7 +5,27 @@
     list-style-type: none;
 }
 
-body {
+html {
     font-family: Montserrat;
     font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 165px 42px 90px;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 94px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header__menu-item.is-active {
+    color: #fa4a0c;
 }
