@@ -236,3 +236,14 @@ a {
     padding: calc(2rem / 3) 2rem;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 7rem 1rem 3.5rem;
+}
+
+.footer__copywright {
+    font-weight: 700;
+    font-size: 0.5rem;
+}
