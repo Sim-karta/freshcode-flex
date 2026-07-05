@@ -22,6 +22,32 @@ a {
     padding: 2rem 7rem 2rem 3.5rem;
 }
 
+.logo {
+    transition-duration: 0.2s;
+}
+
+.logo:hover {
+    scale: 1.05;
+    opacity: 0.8;
+}
+
+.button {
+    transition-duration: 0.2s;
+    font-weight: 700;
+}
+
+.button:hover {
+    scale: 1.05;
+}
+
+.button--orange {
+    background-color: #fa4a0c;
+}
+
+.button--trans {
+    border: 1px solid #fff;
+}
+
 .header__menu-list {
     display: flex;
     justify-content: space-between;
@@ -124,14 +150,6 @@ a {
     padding: calc(2rem / 3) 2.5rem;
 }
 
-.hero__buttons-delivery {
-    background-color: #fa4a0c;
-}
-
-.hero__buttons-menu {
-    border: 1px solid #fff;
-}
-
 .info {
     display: flex;
     flex-direction: column;
@@ -221,18 +239,15 @@ a {
 
 .order__buttons-playstore,
 .order__buttons-appstore {
-    font-weight: 700;
     font-size: calc(2rem / 3);
     border-radius: 10px;
 }
 
 .order__buttons-playstore {
-    background-color: #fa4a0c;
     padding: 0.75rem 1.3rem;
 }
 
 .order__buttons-appstore {
-    border: 1px solid #fff;
     padding: calc(2rem / 3) 2rem;
 }
 
