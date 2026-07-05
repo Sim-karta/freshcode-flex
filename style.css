@@ -60,6 +60,10 @@ a {
     color: #fa4a0c;
 }
 
+.section {
+    margin-bottom: 2.5rem;
+}
+
 .hero {
     position: relative;
     color: #fff;
@@ -126,4 +130,46 @@ a {
 
 .hero__buttons-menu {
     border: 1px solid #fff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12rem;
+    max-width: 1000px;
+    padding-inline: 1rem;
+}
+
+.info-block:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.info-block__content {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.info-block__content-subtitle {
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #fa4a0c;
+}
+
+.info-block__content-title {
+    font-weight: 700;
+    font-size: calc(1rem + 2rem / 3);
+    line-height: 2.5rem;
+}
+
+.info-block__content-text {
+    line-height: 1.5rem;
 }
